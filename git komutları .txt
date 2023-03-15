@@ -1,0 +1,52 @@
+pwd			: nerede olduğunu hangi klasörde olduğunu belirtiyor 
+ls			: bulunduğun yerde neler bulunduğunu gösteriyor
+cd			:(cd gideceğinKlasör) gitmek istediğin klasörün içine giriyor 
+cd ..			: bir önceki klasöre geri dönüyor 
+mkdir yeniklasör	:yeni bir klasör oluşturuyor 
+touch yenimetin.txt 	: bulunduğun yerde uzantısını vermek şartıyla bir dosya oluşturuyor
+vi yenimetin.txt 	: dosyanını içine giriyor 
+dosya içinde iken 	: i ye basarak altta insert yazmasını sağlamalıyız
+			    içine birşeyler yazdıktan sonra çıkmak için esc tuşu
+			    sonra :wq yazarak çıkabiliriz 
+rm yenimetin.txt	: rm yazdıktan sonra dosya boşluk dosya adı ve uzantısı ile dosya silebiliyoruz
+rm -r klasörAdi		: bu şekilde klasörü gtamamen silebiliyoruz
+rm ** 	:bulunduğunuz yerdeki herşeyi siler 
+
+ls -a			: klasör içindekileri ekrana yazdırır 
+git init		: git repostory oluşturmak için (gizli klöserde görünür ) kullanılır bu komut 
+
+git rm --cached dosyaadi.uzanti	:stage area da bulunmasını istemediğimiz dosyaları geri ye göndermek için kullanılır
+git add dosyaadi.uzanti	: stage area ya göndermek için kullanılır sonrasında artık repostory e gidebilir lokalden 
+git add . 		: klasör içindeki tüm dosyalar stage area ya eklenir repostory a gitmek üzere 
+
+git commit -m "mesaj"	: dosya değişikliklerinde mutlaka yapılmalı
+git log 		: dosya da yapılan değişikliklikleri göstermek için görmek için 
+
+git config --global user.name "x": bu komut ile ad soyad yazılabilir 
+git config --global user.email "x@gmail.com": e mail eklenebilir 
+
+git branch -d (branch adı ) : branch i silmek için kullanılır
+
+git branch (branch adı )	: branch oluşturur
+
+git checkout (branch adı )	: branch tan çıkma 
+
+git config global alias command_name "command details": takma ad vermek daha kısa 
+
+git branch -v 	: bu komut branch detaylarını gösterir
+
+branch oluşturmak için (git branch branchadı)
+branchlar arasında geçiş yapmak için (git checkout branchadı)
+eğer branch içinde dosyada değişiklik yaptıysan mutlaka commit -m ile mesaj yazmalısın
+
+git log --online 	:komut satırları gelir 
+git merge eklenecek.dosya	:birleştirmek için kullanılır 
+
+git remote add origin (githup linki yapıştır )
+ daha sonra dosyada bir değişiklik oluşur yada ekler çıkartırsan bunu 
+githup a eklemek için 
+git push origin master diyerek ekleyebiliriz 
+
+ 
+
+
